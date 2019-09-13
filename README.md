@@ -50,7 +50,7 @@ With the Health Inspection scores, the lower the scores the better the rating. F
 
 I'm interested in seeing if wealthy areas affect the scores.  In order to do this, I took another dataset that includes the 2017 GDP per capita per state. I took the mean of this set, and any states above the mean I labelled as "wealthy" and any states below the mean I labelled as "poor". The map below shows the wealthy states colored.
 
-![GDP Per Capita Per State](slides/gdp_per_capita_map.png?raw=true "Title")
+![GDP Per Capita Per State](slides/gdp_per_capita_map.png?raw=true "Title2")
 
 
 
