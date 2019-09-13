@@ -35,7 +35,23 @@ This dataset was taken from data.medicare.gov and was last updated August 1, 201
 
 
 ## Exploratory Data Analysis
+
 ![Rating Distributions](images/rating_distributions.png?raw=true "Title")
+
+I wanted to focus on the data in the nursing rating dataset that related to the overall rating.  Since the overall rating is made up of the three subcategories of Health Inspections, Quality Measures, and Staffing, I took a closer look at those three.  Even though the dataset has 85 features, many of the features were not independent, and so I took the features of each subcategory that were the most comprehensive and independent. 
+
+The Quality Measures data were all categorical, so I did not want to use that data. The Staffing data had a very small spread, this wouldn't give us much insight.  So I chose to use the health inspection scores. 
+
+With the Health Inspection scores, the lower the scores the better the rating. FOr every complaint or deficiency, depending on the severity the nursing home is given points.  Therefore, we are looking for nursing homes with lower Health Inspection scores.
+
+
+
+
+
+I'm interested in seeing if wealthy areas affect the scores.  In order to do this, I took another dataset that includes the 2017 GDP per capita per state. I took the mean of this set, and any states above the mean I labelled as "wealthy" and any states below the mean I labelled as "poor". The map below shows the wealthy states colored.
+
+![Rating Distributions](slides/gdp_per_capita_map.png?raw=true "Title")
+
 
 
 ## Hypothesis Testing
@@ -49,11 +65,14 @@ Ha = The scores from wealthy states are better than poorer states
 
 U-test
 
-P-value = .776
+P-value = .778
 
 
 
 
+## Conclusion
 
+I fail to reject the null hypothesis. 
 
+This is a good sign. It means that there should not be a difference in health scores dependent on how wealthy a state is. 
 
