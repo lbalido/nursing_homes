@@ -9,6 +9,7 @@
 As our loved ones grow older, it becomes more and more difficult for them to remain in their home by themselves. Not only are they are more prone to injuries and risks of under/over medicating, but activities of daily living such as bathing and eating become increasingly more difficult. While family and friends are able to take care of them at the beginning, many reach a point where 24 hr care is needed and they can no longer stay in their home.
 
 Nursing homes are a great alternative when loved ones reach this point. They are facilities for people who do not need to be in hospitals, but cannot be cared for at home and offer the most extensive care a person can get outside a hospital. Most facilities have both long term and short term residents, and include services such as:
+
     - Acitivies of Daily living such as bathing, dressing, and eating
     - Skilled care such monitoring medications, physical therapy, occupational therapy, etc.
     - 24 hour emergency care
@@ -34,12 +35,22 @@ This dataset was taken from data.medicare.gov and was last updated August 1, 201
 
 
 ## Exploratory Data Analysis
-![Exploratory Data Analysis](images/EDA.png?raw=true "Title")
+![Rating Distributions](images/rating_distributions.png?raw=true "Title")
 
 
 ## Hypothesis Testing
 
-I believe that the Quality Measures are the most important part of the overall rating. It not only measures how well the residents are being treated in the home, but it also helps new consumers decide where to place a loved one, gives current consumers more info on the environment where loved ones already are, and gives facilities information to improve quality efforts. My goal for this dataset is to compare if the state mandated health inspections have any effect on the quality of care.
+
+Ho = There is no difference in scores between wealthy states and poor states.
+
+Ha = The scores from wealthy states are better than poorer states
+
+𝛼 = .05
+
+U-test
+
+P-value = .776
+
 
 
 
